@@ -26,7 +26,21 @@ class ViewController: UIViewController {
 
     @IBAction func computeDogYearBtnPressed(sender: UIButton) {
         dogYearLabel.hidden = false
-        dogYearLabel.text = "Dog years is \((humanYearTextField.text as NSString).doubleValue * 7.0)"
+        dogYearLabel.text = "Dog years are \((humanYearTextField.text as NSString).doubleValue * 7.0)"
+        humanYearTextField.resignFirstResponder()
+    }
+    @IBAction func convertToRealDogYearBtnPressed(sender: UIButton) {
+        var humanYears = (humanYearTextField.text as NSString).doubleValue
+        var dogYears = 0.0
+        if humanYears > 2 {
+            dogYears += (humanYears - 2) * 4;
+            humanYears = 2;
+        }
+        dogYears += humanYears * 10.5
+        
+        dogYearLabel.hidden = false
+        dogYearLabel.text = "Dog years are " +
+            "\(dogYears)"
         humanYearTextField.resignFirstResponder()
     }
 }
