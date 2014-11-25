@@ -13,6 +13,7 @@
 		41E841E61A247B96006069B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E841E51A247B96006069B7 /* Images.xcassets */; };
 		41E841E91A247B96006069B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41E841E71A247B96006069B7 /* LaunchScreen.xib */; };
 		41E841F51A247B96006069B7 /* AgeOfLeikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E841F41A247B96006069B7 /* AgeOfLeikaTests.swift */; };
+		41E841FF1A247DA8006069B7 /* AgeOfLaika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41E841FE1A247DA8006069B7 /* AgeOfLaika.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		41E841EE1A247B96006069B7 /* AgeOfLeikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgeOfLeikaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41E841F31A247B96006069B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41E841F41A247B96006069B7 /* AgeOfLeikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeOfLeikaTests.swift; sourceTree = "<group>"; };
+		41E841FE1A247DA8006069B7 /* AgeOfLaika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AgeOfLaika.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		41E841DB1A247B96006069B7 /* AgeOfLeika */ = {
 			isa = PBXGroup;
 			children = (
+				41E841FE1A247DA8006069B7 /* AgeOfLaika.jpg */,
 				41E841DE1A247B96006069B7 /* AppDelegate.swift */,
 				41E841E01A247B96006069B7 /* ViewController.swift */,
 				41E841E21A247B96006069B7 /* Main.storyboard */,
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41E841E41A247B96006069B7 /* Main.storyboard in Resources */,
+				41E841FF1A247DA8006069B7 /* AgeOfLaika.jpg in Resources */,
 				41E841E91A247B96006069B7 /* LaunchScreen.xib in Resources */,
 				41E841E61A247B96006069B7 /* Images.xcassets in Resources */,
 			);
@@ -341,6 +345,7 @@
 				INFOPLIST_FILE = AgeOfLeika/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,6 +356,7 @@
 				INFOPLIST_FILE = AgeOfLeika/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
